@@ -1,15 +1,16 @@
 import React from 'react';
+import ContainerProdutos from './components/ContainerProdutos'
 import Carrinho from './Componentcarrinho/Carrinho.js'
 
 class App extends React.Component {
- 
- render(){
+  render(){
     return (
-    <div>
-      <Carrinho/>
-    </div>
-  )
-  };
-};
+      <section>
+        <Carrinho/>
+        <ContainerProdutos />
+      </section>
+    );
+  }
+}
 
 export default App;
