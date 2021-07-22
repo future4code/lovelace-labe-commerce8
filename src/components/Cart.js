@@ -1,7 +1,7 @@
 import React from 'react';
 import Styled from 'styled-components';
 
-const ShoppingKart = Styled.div`
+const ShoppingCart = Styled.div`
 border:solid black 1px;
 height:99vh;
 width:17vw;
@@ -9,23 +9,21 @@ padding: 10px;
 
 
 `
-const EstilizacaoDoKart = Styled.div`
-display:grid;
-justify-content:end;
-
-
+const CartStyling = Styled.div`
+display:flex;
+justify-content: space-between;
 `
 
 
-class Carrinho extends React.Component{
+class Cart extends React.Component{
    
     
     render(){
 
         
     return(
-        <EstilizacaoDoKart>
-        <ShoppingKart>
+        <CartStyling>
+        <ShoppingCart>
 
         <h4>Carrinho:</h4>
         <div>
@@ -37,11 +35,11 @@ class Carrinho extends React.Component{
             </div>
             <div><p>Preço total:</p> </div>
         </div>
-        </ShoppingKart>
-    </EstilizacaoDoKart>
+        </ShoppingCart>
+    </CartStyling>
      )
   
   
     };
 };
-export default Carrinho 
+export default Cart;
