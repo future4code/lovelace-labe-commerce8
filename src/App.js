@@ -1,17 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
+import ContainerProdutos from './components/ContainerProdutos'
 import Filter from './Components_Filtro/Filter'
+import Carrinho from './Componentcarrinho/Carrinho.js'
+
 import { Filtro } from "./App.Styles"
 
 class App extends React.Component {
   render(){
-    return  <Filtro>
+    return (
+      <div>
+        <Filtro>
+          <Filter/>
+        </Filtro>
 
-      <Filter/>
-
-    </Filtro>
-
-
+        <section>
+          <Carrinho/>
+          <ContainerProdutos />
+        </section>
+      </div>
+      
+    );
   }
 }
 
