@@ -23,7 +23,8 @@ class App extends React.Component {
           <Filter />
         </ContainerFilter>
 
-        <ProductContainer />
+        <ProductContainer 
+        />
 
         <Section>
           <Cart />
