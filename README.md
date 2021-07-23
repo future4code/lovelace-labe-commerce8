@@ -1,4 +1,4 @@
-###Labecommerce
+# Labecommerce
 
 Olá! Desenvolvemos um site ecommerce simples de produtos com temática espacial. O objetivo é colocar funcionalidades no site que facilitam a interação do usuário com o site.
 
