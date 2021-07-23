@@ -9,7 +9,7 @@ Olá! Desenvolvemos um site ecommerce simples de produtos com temática espacial
 - O container de filtro possui inputs para colocar os valores.
 - O carrinho possui um boto para remover produtos do carrinho.
 
-## o que não funciona: 
+## O que não funciona: 
 
 - Adicionar produtos ao carrinho pelo botão de "Adicionar ao carrinho".
 - Ordenar os produtos em ordem crescente e descrescente.
