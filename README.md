@@ -1,1 +1,28 @@
-Sejam bem vindos ao Labe-commerce, esse repositório contém um esqueleto de app React e um .gitignore.
+###Labecommerce
+
+Olá! Desenvolvemos um site ecommerce simples de produtos com temática espacial. O objetivo é colocar funcionalidades no site que facilitam a interação do usuário com o site.
+
+## O que funciona: 
+
+- O layout estático do site foi criado, mostrando containers com: filtro, cards de produtos e carrinho.
+- Os cards de produtos possuem um botão para adicionar produtos no carrinho.
+- O container de filtro possui inputs para colocar os valores.
+- O carrinho possui um boto para remover produtos do carrinho.
+
+## o que não funciona: 
+
+- Adicionar produtos ao carrinho pelo botão de "Adicionar ao carrinho".
+- Ordenar os produtos em ordem crescente e descrescente.
+- A funcionalidade de remover itens do carrinho não funciona.
+- Mostrar todos os produtos e quantidades adicionadas
+- A funcionalidade de filtrar os produtos por valor mínimo, máximo e por nome do produto.
+
+## Tecnologias utilizadas:
+- Javascript
+- React
+- HTML
+- CSS
+
+
+## Link Surge
+http://repulsive-clover.surge.sh/
