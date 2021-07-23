@@ -14,7 +14,7 @@ Olá! Desenvolvemos um site ecommerce simples de produtos com temática espacial
 - Adicionar produtos ao carrinho pelo botão de "Adicionar ao carrinho".
 - Ordenar os produtos em ordem crescente e descrescente.
 - A funcionalidade de remover itens do carrinho não funciona.
-- Mostrar todos os produtos e quantidades adicionadas
+- Mostrar todos os produtos e quantidades adicionadas.
 - A funcionalidade de filtrar os produtos por valor mínimo, máximo e por nome do produto.
 
 ## Tecnologias utilizadas:
