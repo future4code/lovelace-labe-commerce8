@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ProductContainer from './components/ProductContainer'
+import ContainerFilter from './components/ContainerFilter.js'
+import Filter from './components/Filter.js'
+import Cart from './components/Cart.js'
+import styled from 'styled-components'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const ContainerSection = styled.div`
+   display: flex;
+   justify-content: space-between;
+`
+
+const Section = styled.div`
+  display: flex;
+`
+
+class App extends React.Component {
+  render() {
+    return (
+      <ContainerSection>
+        <ContainerFilter>
+          <Filter />
+        </ContainerFilter>
+
+        <ProductContainer 
+        />
+
+        <Section>
+          <Cart />
+        </Section>
+
+      </ContainerSection>
+
+    );
+  }
 }
 
 export default App;
